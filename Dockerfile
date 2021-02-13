@@ -12,7 +12,7 @@ RUN mkdir -p /app
 WORKDIR /app
 
 # 서버 파일 복사 ADD [어플리케이션 파일 위치] [컨테이너내부의 어플리케이션 파일 위치]
-# ADD 파일과 디렉토리를 호스테에서 docker image로 카파한다
+# ADD 파일과 디렉토리를 호스테에서 docker image로 카피한다
 ADD ./ /app
 
 # 패키지파일들 받기
